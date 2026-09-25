@@ -4,7 +4,7 @@
 
 // hi
 package student;
-
+import student.Student;
 import java.util.ArrayList;
 
 /**
@@ -30,7 +30,10 @@ public class StudentList {
     }
     
     public static double GetClassAverage(Student[] students){
-        double totalGrade = 0;
+        dobble totalGrade = 0;
+        // whoops silly me aww man theres a bug
+        // what can we do
+        
         for (Student student : students) {
             totalGrade += student.getGrade();
         }
